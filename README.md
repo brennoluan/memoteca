@@ -2,9 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+## Setup
+
+Angular 14 requires Node.js 14 or 16. With [nvm](https://github.com/nvm-sh/nvm),
+use the Node version configured for this project before installing dependencies:
+
+```bash
+nvm install
+nvm use
+export PATH="$NVM_BIN:$PATH"
+npm install
+```
+
+The `PATH` adjustment ensures nvm takes precedence over other version managers.
+Check the selected version with `node --version`.
+
+Node.js 16 and Angular 14 are no longer supported; use them only for this
+legacy course project.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
