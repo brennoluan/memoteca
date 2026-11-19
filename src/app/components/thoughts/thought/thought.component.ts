@@ -18,4 +18,12 @@ export class ThoughtComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  widthThought(): string {
+    if (this.thought.content.length > 256) {
+      return 'pensamento-g';
+    }
+
+    return 'pensamento-p';
+  }
+
 }
