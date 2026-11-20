@@ -2,39 +2,603 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Nay",
+      "conteudo": "Cada começo traz uma nova possibilidade.",
+      "autoria": "Memoteca",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "aaaaaaaa",
-      "autoria": "vbv",
+      "conteudo": "Pequenos passos também levam longe.",
+      "autoria": "Memoteca",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura",
+      "conteudo": "Aprender é encontrar novas formas de olhar.",
+      "autoria": "Memoteca",
       "modelo": "modelo3"
     },
     {
-      "conteudo": "Testando funcao de editar",
-      "autoria": "Angular",
-      "modelo": "modelo2",
-      "id": 4
+      "id": 4,
+      "conteudo": "Uma pausa pode ser parte do caminho.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
     },
     {
-      "conteudo": "sads",
-      "autoria": "adasd",
-      "modelo": "modelo1",
-      "id": 5
+      "id": 5,
+      "conteudo": "A curiosidade abre portas inesperadas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
     },
     {
-      "conteudo": "aaaaaaaaaa",
-      "autoria": "asdsadsad",
-      "modelo": "modelo2",
-      "id": 6
+      "id": 6,
+      "conteudo": "O cuidado transforma os detalhes.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 7,
+      "conteudo": "Ideias crescem quando são compartilhadas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 8,
+      "conteudo": "Hoje é um bom dia para tentar novamente.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 9,
+      "conteudo": "Nem todo progresso faz barulho.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 10,
+      "conteudo": "A simplicidade também pode surpreender.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 11,
+      "conteudo": "Um bom encontro pode mudar a semana.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 12,
+      "conteudo": "Guardar memórias é celebrar o caminho.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 13,
+      "conteudo": "Perguntar é o primeiro passo para descobrir.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 14,
+      "conteudo": "A criatividade mora nas conexões improváveis.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 15,
+      "conteudo": "Respeitar seu ritmo também é avançar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 16,
+      "conteudo": "Toda jornada tem espaço para recomeços.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 17,
+      "conteudo": "A gentileza torna o cotidiano mais leve.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 18,
+      "conteudo": "Experimente, observe e aprenda com o processo.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 19,
+      "conteudo": "Há beleza em construir algo aos poucos.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 20,
+      "conteudo": "Uma conversa sincera pode abrir caminhos.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 21,
+      "conteudo": "O conhecimento fica maior quando circula.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 22,
+      "conteudo": "Celebre o que você conseguiu fazer hoje.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 23,
+      "conteudo": "Mudanças começam com escolhas possíveis.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 24,
+      "conteudo": "A atenção aos detalhes revela novas histórias.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 25,
+      "conteudo": "Às vezes, descansar é a melhor estratégia.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 26,
+      "conteudo": "Ouvir com calma é uma forma de cuidado.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 27,
+      "conteudo": "Novas perspectivas nascem de boas perguntas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 28,
+      "conteudo": "O processo importa tanto quanto o resultado.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 29,
+      "conteudo": "Compartilhar uma conquista multiplica a alegria.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 30,
+      "conteudo": "Toda ideia merece um espaço para amadurecer.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 31,
+      "conteudo": "Um dia de cada vez também é um plano.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 32,
+      "conteudo": "A melhor solução pode começar com um rascunho.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 33,
+      "conteudo": "Revisitar memórias ajuda a perceber o quanto mudamos.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 34,
+      "conteudo": "Há sempre algo novo para observar no caminho.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 35,
+      "conteudo": "Um gesto simples pode tornar o dia especial.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 36,
+      "conteudo": "Errar também oferece pistas para aprender.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 37,
+      "conteudo": "A colaboração aproxima ideias e pessoas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 38,
+      "conteudo": "Uma boa pergunta vale uma pausa para pensar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 39,
+      "conteudo": "A rotina ganha cor quando abrimos espaço para o novo.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 40,
+      "conteudo": "Cuidar de si permite cuidar melhor do que importa.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 41,
+      "conteudo": "A prática transforma dúvidas em descobertas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 42,
+      "conteudo": "O tempo de aprender não precisa ser apressado.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 43,
+      "conteudo": "Um caderno aberto pode guardar grandes ideias.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 44,
+      "conteudo": "Escutar outras histórias amplia a nossa visão.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 45,
+      "conteudo": "Toda conquista começou em algum lugar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 46,
+      "conteudo": "Criar é dar espaço ao que ainda não existe.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 47,
+      "conteudo": "A paciência ajuda a enxergar além da pressa.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 48,
+      "conteudo": "O encontro de ideias diferentes pode gerar algo especial.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 49,
+      "conteudo": "O importante é seguir aprendendo com curiosidade.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 50,
+      "conteudo": "A gratidão também vive nos momentos comuns.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 51,
+      "conteudo": "Uma nova tentativa pode trazer uma nova resposta.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 52,
+      "conteudo": "Descobrir leva tempo, e isso faz parte.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 53,
+      "conteudo": "Cada pessoa tem algo único para ensinar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 54,
+      "conteudo": "Organizar as ideias ajuda a enxergar o próximo passo.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 55,
+      "conteudo": "Uma boa lembrança pode aquecer qualquer dia.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 56,
+      "conteudo": "Criatividade também é encontrar novos usos para o conhecido.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 57,
+      "conteudo": "A calma deixa espaço para escolhas mais conscientes.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 58,
+      "conteudo": "Todo projeto começa com uma primeira versão.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 59,
+      "conteudo": "As melhores histórias merecem ser lembradas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 60,
+      "conteudo": "Um desafio pode revelar habilidades adormecidas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 61,
+      "conteudo": "A confiança cresce com a experiência.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 62,
+      "conteudo": "Observar é uma maneira silenciosa de aprender.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 63,
+      "conteudo": "O entusiasmo encontra força na curiosidade.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 64,
+      "conteudo": "Uma ideia anotada está pronta para ser retomada.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 65,
+      "conteudo": "A troca de experiências enriquece qualquer jornada.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 66,
+      "conteudo": "Mudar de direção pode ser uma forma de crescer.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 67,
+      "conteudo": "Há aprendizado em cada etapa de uma construção.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 68,
+      "conteudo": "Pequenos hábitos podem criar grandes mudanças.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 69,
+      "conteudo": "A imaginação precisa de tempo para explorar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 70,
+      "conteudo": "Um pouco de leveza faz diferença no cotidiano.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 71,
+      "conteudo": "Fazer perguntas é um jeito de manter a mente aberta.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 72,
+      "conteudo": "As boas ideias podem aparecer durante uma pausa.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 73,
+      "conteudo": "A prática diária constrói caminhos consistentes.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 74,
+      "conteudo": "Cada conversa é uma oportunidade de compreender melhor.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 75,
+      "conteudo": "O primeiro passo não precisa ser perfeito.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 76,
+      "conteudo": "Uma lembrança compartilhada pode aproximar pessoas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 77,
+      "conteudo": "Aprender com outras pessoas torna o caminho mais rico.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 78,
+      "conteudo": "O olhar atento encontra detalhes que a pressa ignora.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 79,
+      "conteudo": "É possível recomeçar sem esquecer o que foi aprendido.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 80,
+      "conteudo": "A descoberta pode estar em uma pergunta inesperada.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 81,
+      "conteudo": "A persistência se constrói com cuidado e flexibilidade.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 82,
+      "conteudo": "Um ambiente acolhedor convida à criação.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 83,
+      "conteudo": "A cada projeto, uma nova maneira de pensar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 84,
+      "conteudo": "Dividir uma tarefa também é compartilhar confiança.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 85,
+      "conteudo": "O silêncio pode dar espaço a boas reflexões.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 86,
+      "conteudo": "A criatividade se alimenta de repertórios diversos.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 87,
+      "conteudo": "Um plano pode mudar conforme surgem novas informações.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 88,
+      "conteudo": "A memória guarda detalhes que o coração reconhece.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 89,
+      "conteudo": "Vale a pena reconhecer o próprio crescimento.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 90,
+      "conteudo": "A troca de ideias pode transformar uma dúvida em descoberta.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 91,
+      "conteudo": "Cada etapa concluída merece ser valorizada.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 92,
+      "conteudo": "Conhecer algo novo pode começar com um simples convite.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 93,
+      "conteudo": "O caminho fica mais interessante quando há espaço para explorar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 94,
+      "conteudo": "Uma solução clara começa com um problema bem compreendido.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 95,
+      "conteudo": "É no encontro entre prática e reflexão que surgem descobertas.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 96,
+      "conteudo": "Cultivar boas relações também faz parte do aprendizado.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 97,
+      "conteudo": "As ideias mais simples podem abrir novos caminhos.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 98,
+      "conteudo": "Todo dia oferece alguma coisa para observar.",
+      "autoria": "Memoteca",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 99,
+      "conteudo": "Registrar pensamentos é uma forma de cuidar das ideias.",
+      "autoria": "Memoteca",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 100,
+      "conteudo": "O próximo capítulo começa com uma escolha possível.",
+      "autoria": "Memoteca",
+      "modelo": "modelo1"
     }
   ]
 }
