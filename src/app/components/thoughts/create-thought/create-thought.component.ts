@@ -38,4 +38,8 @@ export class CreateThoughtComponent implements OnInit {
   cancel() {
     this.router.navigate(['/listarPensamento']);
   }
+
+  enableButton(): string {
+    return this.form.invalid ? 'botao__desabilitado' : 'botao';
+  }
 }
