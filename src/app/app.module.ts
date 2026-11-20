@@ -12,6 +12,7 @@ import { ListThoughtComponent } from './components/thoughts/list-thought/list-th
 import { ThoughtComponent } from './components/thoughts/thought/thought.component';
 import { DeleteThoughtComponent } from './components/thoughts/delete-thought/delete-thought.component';
 import { EditThoughtComponent } from './components/thoughts/edit-thought/edit-thought.component';
+import { ButtonLoadMoreComponent } from './components/thoughts/list-thought/button-load-more/button-load-more.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EditThoughtComponent } from './components/thoughts/edit-thought/edit-th
     ListThoughtComponent,
     ThoughtComponent,
     DeleteThoughtComponent,
-    EditThoughtComponent
+    EditThoughtComponent,
+    ButtonLoadMoreComponent
   ],
   imports: [
     BrowserModule,
