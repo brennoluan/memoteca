@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Thought } from '../thought';
 import { ThoughtService } from '../thought.service';
 
@@ -15,9 +16,12 @@ export class ListThoughtComponent implements OnInit {
   filter: string = '';
   favorite: boolean = false;
   listFavorite: Thought[] = [];
+  title: string = 'Meu Mural';
 
-
-  constructor(private thoughtService: ThoughtService) { }
+  constructor(
+    private thoughtService: ThoughtService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
     this.thoughtService.list(this.page, this.filter, this.favorite).subscribe((thoughts) => {
@@ -42,7 +46,16 @@ export class ListThoughtComponent implements OnInit {
     });
   }
 
+  reloadComponent(): void {
+    this.favorite = false;
+    this.page = 1;
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    this.router.onSameUrlNavigation = 'reload';
+    this.router.navigate([this.router.url]);
+  }
+
   listFavorites(): void {
+    this.title = 'Meus Favoritos';
     this.haveMoreThoughts = true;
     this.page = 1;
     this.favorite = true;
