@@ -38,4 +38,12 @@ export class ListThoughtComponent implements OnInit {
       this.listThoughts = thoughts;
     });
   }
+
+  listFavorites(): void {
+    this.haveMoreThoughts = true;
+    this.page = 1;
+    this.thoughtService.listFavorites(this.page, this.filter).subscribe((thoughts) => {
+      this.listThoughts = thoughts;
+    });
+  }
 }

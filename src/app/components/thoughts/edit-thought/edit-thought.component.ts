@@ -27,7 +27,8 @@ export class EditThoughtComponent implements OnInit {
           id: [thought.id],
           conteudo: [thought.conteudo, Validators.compose([Validators.required, Validators.pattern(/(.|\s)*\S(.|\s)*/)])],
           autoria: [thought.autoria, Validators.compose([Validators.required, Validators.minLength(3)])],
-          modelo: [thought.modelo]
+          modelo: [thought.modelo],
+          favorite: [thought.favorite]
         });
       });
     }

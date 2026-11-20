@@ -22,6 +22,16 @@ export class ThoughtService {
     return this.http.get<Thought[]>(this.API, { params });
   }
 
+  listFavorites(page: number, filter: string): Observable<Thought[]> {
+    let params = new HttpParams().set('_page', page).set('_limit', 6).set('favorite', 'true');
+
+    if (filter.trim().length > 2) {
+      params = params.set('q', filter);
+    }
+
+    return this.http.get<Thought[]>(this.API, { params });
+  }
+
   create(thought: Thought): Observable<Thought> {
     return this.http.post<Thought>(this.API, thought);
   }
@@ -36,5 +46,10 @@ export class ThoughtService {
 
   search(id: number): Observable<Thought> {
     return this.http.get<Thought>(`${this.API}/${id}`);
+  }
+
+  toggleFavorite(thought: Thought): Observable<Thought> {
+    thought.favorite = !thought.favorite;
+    return this.edit(thought);
   }
 }
