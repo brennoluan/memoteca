@@ -17,6 +17,8 @@ export class ThoughtComponent implements OnInit {
     favorite: false
   }
 
+  @Input() listFavorite: Thought[] = [];
+
   constructor(
     private thoughtService: ThoughtService
   ) { }
@@ -41,6 +43,8 @@ export class ThoughtComponent implements OnInit {
   }
 
   toggleFavorite(): void {
-    this.thoughtService.toggleFavorite(this.thought).subscribe();
+    this.thoughtService.toggleFavorite(this.thought).subscribe(() => {
+      this.listFavorite.splice(this.listFavorite.findIndex(t => t.id === this.thought.id), 1)
+    });
   }
 }
